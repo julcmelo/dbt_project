@@ -1,3 +1,4 @@
+-- Order_details Model
 WITH products AS (
     SELECT
         *

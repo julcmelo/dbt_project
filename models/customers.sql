@@ -1,3 +1,4 @@
+-- Customer Model
 WITH source_connection AS (
     SELECT
         *

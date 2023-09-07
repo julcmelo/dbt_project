@@ -1,3 +1,4 @@
+-- Joins Model
 WITH source_products AS (
     SELECT
         *
