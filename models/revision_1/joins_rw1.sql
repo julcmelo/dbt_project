@@ -33,19 +33,19 @@ WITH source_products AS (
     SELECT
         *
     FROM
-        {{ref('order_details')}}
+        {{ref('order_details_rw1')}}
 
 ), ref_customers AS (
     SELECT
         *
     FROM
-        {{ref('customers')}}
+        {{ref('customers_rw1')}}
 
 ), ref_employees AS (
     SELECT
         *
     FROM
-        {{ref('employees')}}
+        {{ref('employees_rw1')}}
 
 ), products AS (
     SELECT
