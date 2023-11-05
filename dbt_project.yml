@@ -6,6 +6,7 @@ name: 'my_new_project'
 version: '1.0.0'
 config-version: 2
 
+# Variables
 vars:
   category: Seafood
 
